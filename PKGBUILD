@@ -1,17 +1,16 @@
-# Maintainer:  <alexander@Alexander-PC>
+# Maintainer: Alexander Eisele <alexander at eiselecloud dot de>
+
 pkgname=cryptobox-c
 pkgver=1.1.3
 pkgrel=1
-pkgdesc=""
+pkgdesc="Provides a high-level C API for the cryptobox library, which is used by the wire messenger"
 arch=('i686' 'x86_64')
 url="https://github.com/wireapp/cryptobox-c.git"
-license=('GPLv3')
-groups=()
+license=('GPL3')
 depends=("libsodium")
 makedepends=("rust")
 source=("https://github.com/wireapp/cryptobox-c/archive/v$pkgver.zip")
 md5sums=('d2a32b0c84fc3a337d13f5608d34b03d')
-noextract=()
 
 
 build() {

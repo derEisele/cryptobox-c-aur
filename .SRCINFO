@@ -1,0 +1,15 @@
+pkgbase = cryptobox-c
+	pkgdesc = Provides a high-level C API for the cryptobox library, which is used by the wire messenger
+	pkgver = 1.1.3
+	pkgrel = 1
+	url = https://github.com/wireapp/cryptobox-c.git
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = rust
+	depends = libsodium
+	source = https://github.com/wireapp/cryptobox-c/archive/v1.1.3.zip
+	md5sums = d2a32b0c84fc3a337d13f5608d34b03d
+
+pkgname = cryptobox-c
+
